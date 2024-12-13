@@ -19,14 +19,16 @@ Antes de iniciar, você precisará ter instalado em seu ambiente:
 ├── prometheus/
 │   ├── prometheus.yml
 ├── grafana/
-│   └── provisioning/
-│       └── dashboards/
-│           └── dashboard.json
+│   ├── grafana.yml
 ├── src/
 │   └── WebMetric/
 │       ├── Program.cs
 │       └── WebMetric.csproj
+├── prints/
+│   ├── conexoes_ativas.png
+│   ├── requisicoes_ativas.png
 └── README.md
+
 ```
 
 ## Passo a Passo
